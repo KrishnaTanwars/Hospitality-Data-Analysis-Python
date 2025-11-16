@@ -30,18 +30,20 @@ Using Python libraries, this project converts raw hotel datasets into meaningful
 
 ## 📁 Project Files
 
-├── datasets/
-│ ├── dim_date.csv
-│ ├── dim_hotels.csv
-│ ├── dim_rooms.csv
-│ ├── fact_bookings.csv
-│ ├── fact_aggregated_bookings.csv
-│ └── new_data_august.csv
-│
-├── hotels_analysis.ipynb
-├── exercise_solution.ipynb
-├── PRACTICE.ipynb
-└── README.md
+    datasets:
+      - dim_date.csv
+      - dim_hotels.csv
+      - dim_rooms.csv
+      - fact_bookings.csv
+      - fact_aggregated_bookings.csv
+      - new_data_august.csv
+    notebooks:
+      - hotels_analysis.ipynb
+      - exercise_solution.ipynb
+      - PRACTICE.ipynb
+    other_files:
+      - README.md
+
 
 
 ---
@@ -85,8 +87,5 @@ jupyter notebook
 hotels_analysis.ipynb
 exercise_solution.ipynb
 
-📬 Author
-
-Krishna Tanwar
-🔗 LinkedIn: https://linkedin.com/in/krishnatanwars
-🔗 GitHub: https://github.com/krishnatanwars
+```
+---
